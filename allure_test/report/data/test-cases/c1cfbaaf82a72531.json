@@ -1,0 +1,190 @@
+{
+  "uid" : "c1cfbaaf82a72531",
+  "name" : "test_case_15",
+  "fullName" : "20.Test_20#test_case_15",
+  "historyId" : "0ab9c18addd1c6db152204c60e65cca0",
+  "time" : {
+    "start" : 1564881580919,
+    "stop" : 1564881593535,
+    "duration" : 12616
+  },
+  "description" : "用例名称京东-登录-百度-新闻-百度",
+  "descriptionHtml" : "<p>用例名称京东-登录-百度-新闻-百度</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1564881579726,
+      "stop" : 1564881580916,
+      "duration" : 1190
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "用例名称京东-登录-百度-新闻-百度",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开京东",
+      "time" : {
+        "start" : 1564881580919,
+        "stop" : 1564881583611,
+        "duration" : 2692
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "登陆",
+      "time" : {
+        "start" : 1564881583611,
+        "stop" : 1564881587924,
+        "duration" : 4313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "切换账户登陆",
+      "time" : {
+        "start" : 1564881587924,
+        "stop" : 1564881588144,
+        "duration" : 220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "发送账户名密码",
+      "time" : {
+        "start" : 1564881588144,
+        "stop" : 1564881588533,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "time" : {
+        "start" : 1564881588533,
+        "stop" : 1564881593535,
+        "duration" : 5002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1564881593537,
+      "stop" : 1564881596589,
+      "duration" : 3052
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "time" : {
+        "start" : 1564881593537,
+        "stop" : 1564881596589,
+        "duration" : 3052
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "打开京东"
+  }, {
+    "name" : "story",
+    "value" : "点击登陆"
+  }, {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "20"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_20"
+  }, {
+    "name" : "host",
+    "value" : "ZJ-OA-WU-JY"
+  }, {
+    "name" : "thread",
+    "value" : "89596-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "20"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c1cfbaaf82a72531.json",
+  "parameterValues" : [ ]
+}

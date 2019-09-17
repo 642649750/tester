@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Sep 17 22:57:31 CST 2019","Tue Sep 17 22:57:45 CST 2019","14220","","20","Test_20","","","test_case_15","用例名称京东-登录-百度-新闻-百度"
+"passed","Sun Aug 04 09:21:57 CST 2019","Sun Aug 04 09:22:12 CST 2019","14396","","20","Test_20","","","test_case_15","用例名称京东-登录-百度-新闻-百度"
+"passed","Sun Aug 04 09:22:12 CST 2019","Sun Aug 04 09:22:21 CST 2019","9496","","20","Test_20","","","test_case_16","用例名称京东-登录-百度-新闻-百度"
+"passed","Tue Sep 17 22:57:45 CST 2019","Tue Sep 17 22:57:53 CST 2019","7701","","20","Test_20","","","test_case_16","用例名称京东-登录-百度-新闻-百度"

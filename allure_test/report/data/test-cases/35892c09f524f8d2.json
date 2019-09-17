@@ -1,0 +1,137 @@
+{
+  "uid" : "35892c09f524f8d2",
+  "name" : "test_case_15",
+  "fullName" : "20.Test_20#test_case_15",
+  "historyId" : "0ab9c18addd1c6db152204c60e65cca0",
+  "time" : {
+    "start" : 1564881069694,
+    "stop" : 1564881080080,
+    "duration" : 10386
+  },
+  "description" : "用例名称京东-登录-百度-新闻-百度",
+  "descriptionHtml" : "<p>用例名称京东-登录-百度-新闻-百度</p>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <allure_test.20.Test_20 object at 0x0000022F8BD636D8>\n\n    @allure.feature('打开京东')\n    @allure.story('点击登陆')\n    def test_case_15(self):\n        '''用例名称京东-登录-百度-新闻-百度'''\n        # methods.get_url(\"https://www.jd.com\", desc=\"打开京东\")\n>       methods.click(\"xpath=>//*[contains(text(),'登陆')]\", desc=\"登陆\")\n\n20.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nmethods.py:74: in click\n    raise e\nmethods.py:72: in click\n    getElement(loc).click()\nmethods.py:35: in getElement\n    raise e\nmethods.py:31: in getElement\n    element = WebDriverWait(driver, 10).until(lambda x: x.find_element(by=byTypeDict[by], value=value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"7c43648dde11d48596b383f02deff1fa\")>, method = <function getElement.<locals>.<lambda> at 0x0000022F8BD73510>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1564881068530,
+      "stop" : 1564881069692,
+      "duration" : 1162
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "用例名称京东-登录-百度-新闻-百度",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <allure_test.20.Test_20 object at 0x0000022F8BD636D8>\n\n    @allure.feature('打开京东')\n    @allure.story('点击登陆')\n    def test_case_15(self):\n        '''用例名称京东-登录-百度-新闻-百度'''\n        # methods.get_url(\"https://www.jd.com\", desc=\"打开京东\")\n>       methods.click(\"xpath=>//*[contains(text(),'登陆')]\", desc=\"登陆\")\n\n20.py:29: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nmethods.py:74: in click\n    raise e\nmethods.py:72: in click\n    getElement(loc).click()\nmethods.py:35: in getElement\n    raise e\nmethods.py:31: in getElement\n    element = WebDriverWait(driver, 10).until(lambda x: x.find_element(by=byTypeDict[by], value=value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"7c43648dde11d48596b383f02deff1fa\")>, method = <function getElement.<locals>.<lambda> at 0x0000022F8BD73510>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "登陆",
+      "time" : {
+        "start" : 1564881069695,
+        "stop" : 1564881080077,
+        "duration" : 10382
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"C:\\Users\\Administrator\\Desktop\\关于网站\\ccc\\爬虫系统\\go\\allure_test\\methods.py\", line 74, in click\n    raise e\n  File \"C:\\Users\\Administrator\\Desktop\\关于网站\\ccc\\爬虫系统\\go\\allure_test\\methods.py\", line 72, in click\n    getElement(loc).click()\n  File \"C:\\Users\\Administrator\\Desktop\\关于网站\\ccc\\爬虫系统\\go\\allure_test\\methods.py\", line 35, in getElement\n    raise e\n  File \"C:\\Users\\Administrator\\Desktop\\关于网站\\ccc\\爬虫系统\\go\\allure_test\\methods.py\", line 31, in getElement\n    element = WebDriverWait(driver, 10).until(lambda x: x.find_element(by=byTypeDict[by], value=value))\n  File \"c:\\python36\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1564881080189,
+      "stop" : 1564881082788,
+      "duration" : 2599
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "time" : {
+        "start" : 1564881080189,
+        "stop" : 1564881082788,
+        "duration" : 2599
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "打开京东"
+  }, {
+    "name" : "story",
+    "value" : "点击登陆"
+  }, {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "20"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_20"
+  }, {
+    "name" : "host",
+    "value" : "ZJ-OA-WU-JY"
+  }, {
+    "name" : "thread",
+    "value" : "79016-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "20"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35892c09f524f8d2.json",
+  "parameterValues" : [ ]
+}

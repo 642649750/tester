@@ -1,0 +1,65 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "打开京东",
+    "children" : [ {
+      "name" : "点击登陆",
+      "children" : [ {
+        "name" : "test_case_15",
+        "uid" : "5853ce4faece00e6",
+        "parentUid" : "d353cc0697d734a2cec3480b5e4bc551",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564881717931,
+          "stop" : 1564881732327,
+          "duration" : 14396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case_16",
+        "uid" : "aa320f9187c0b3ad",
+        "parentUid" : "d353cc0697d734a2cec3480b5e4bc551",
+        "status" : "passed",
+        "time" : {
+          "start" : 1564881732334,
+          "stop" : 1564881741830,
+          "duration" : 9496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case_15",
+        "uid" : "208be49b6e4b17",
+        "parentUid" : "d353cc0697d734a2cec3480b5e4bc551",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568732251294,
+          "stop" : 1568732265514,
+          "duration" : 14220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_case_16",
+        "uid" : "a0964bcbf365ae49",
+        "parentUid" : "d353cc0697d734a2cec3480b5e4bc551",
+        "status" : "passed",
+        "time" : {
+          "start" : 1568732265517,
+          "stop" : 1568732273218,
+          "duration" : 7701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d353cc0697d734a2cec3480b5e4bc551"
+    } ],
+    "uid" : "55404831e2b9072dce588da63aa72111"
+  } ]
+}

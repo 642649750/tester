@@ -1,0 +1,160 @@
+{
+  "uid" : "39ca2b9908ab925d",
+  "name" : "test_case_15",
+  "fullName" : "20.Test_20#test_case_15",
+  "historyId" : "0ab9c18addd1c6db152204c60e65cca0",
+  "time" : {
+    "start" : 1564852501408,
+    "stop" : 1564852505536,
+    "duration" : 4128
+  },
+  "description" : "用例名称京东-登录-百度-新闻-百度",
+  "descriptionHtml" : "<p>用例名称京东-登录-百度-新闻-百度</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1564852500173,
+      "stop" : 1564852501406,
+      "duration" : 1233
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "用例名称京东-登录-百度-新闻-百度",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get_url_百度",
+      "time" : {
+        "start" : 1564852501408,
+        "stop" : 1564852505348,
+        "duration" : 3940
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击新闻",
+      "time" : {
+        "start" : 1564852505348,
+        "stop" : 1564852505536,
+        "duration" : 188
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "time" : {
+        "start" : 1564852505539,
+        "stop" : 1564852508063,
+        "duration" : 2524
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1564852508063,
+      "stop" : 1564852508064,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "time" : {
+        "start" : 1564852508063,
+        "stop" : 1564852508064,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "京东-百度-删除-创建15 16 17"
+  }, {
+    "name" : "story",
+    "value" : "用例描述公共脚本打开京东，后面打开百度"
+  }, {
+    "name" : "parentSuite"
+  }, {
+    "name" : "suite",
+    "value" : "20"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_20"
+  }, {
+    "name" : "host",
+    "value" : "ZJ-OA-WU-JY"
+  }, {
+    "name" : "thread",
+    "value" : "43112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "20"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "39ca2b9908ab925d.json",
+  "parameterValues" : [ ]
+}
